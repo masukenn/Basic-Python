@@ -1,6 +1,8 @@
-x = int(input())
-i = 1
-while x != 0:
-	print('Case {}: {}' .format(i, x))
-	i += 1
+i = 0
+while True:
 	x = int(input())
+	if x == 0:
+		break
+	else:
+		i += 1
+		print('Case {}: {}' .format(i, x))	
