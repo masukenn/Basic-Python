@@ -1,5 +1,5 @@
 while True:
-    n, x = map(int, input().split())
+    n, x = map(int,input().split())
     c = 0
     if n == 0 and x == 0:
         break
@@ -9,4 +9,3 @@ while True:
                 if i + j + k + 3 == x and i != j != k and i < j < k:
                     c += 1
     print(c)
-
