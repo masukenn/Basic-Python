@@ -1,5 +1,5 @@
 while True:
-    n, x = map(int,input().split())
+    n, x = map(int, input().split())
     c = 0
     if n == 0 and x == 0:
         break
