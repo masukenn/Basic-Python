@@ -5,4 +5,5 @@ while True:
 		break
 	else:
 		i += 1
-		print('Case {}: {}' .format(i, x))	
+		print('Case {}: {}' .format(i, x))
+
