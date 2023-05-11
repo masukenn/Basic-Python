@@ -10,4 +10,9 @@ for data in range(n):
     allcard.remove(egara + ' ' + str(suuji))
 
 for i in range(len(allcard)):
+
     print(allcard[i])
+
+
+
+    
