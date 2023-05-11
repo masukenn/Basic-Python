@@ -6,3 +6,4 @@ while True:
 	else:
 		i += 1
 		print('Case {}: {}' .format(i, x))
+

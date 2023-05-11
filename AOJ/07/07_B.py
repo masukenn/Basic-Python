@@ -1,5 +1,14 @@
-list = [[[0 for i in range(10)] for j in range(3)] for k in range(4)]
-print(list[0])
+while True:
+    n, x = map(int, input().split())
+    c = 0
+    if n == 0 and x == 0:
+        break
+    for i in range(n):
+        for j in range(n):
+            for k in range(n):
+                if i + j + k + 3 == x and i != j != k and i < j < k:
+                    c += 1
+    print(c)
 
-if b != 3:
-        print("#"*20)
+    
+
