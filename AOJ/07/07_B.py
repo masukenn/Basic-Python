@@ -8,6 +8,7 @@ while True:
             for k in range(n):
                 if i + j + k + 3 == x and i != j != k and i < j < k:
                     c += 1
+
     print(c)
 
     
